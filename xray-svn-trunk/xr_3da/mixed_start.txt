@@ -1,0 +1,52 @@
+Как использовать mixed:
+
+- Распакуйте все .db игры, поверх накатайте ваши обновления для gamedata
+- Уберите .db-архивы из папки с игрой
+- Удалите .thm из папок в textures: act, la_dc_hand, nps_la_dc (удалите все .thm от сдк Зова Припяти)
+- Запускайте :) 
+
+-external -noprefetch -nointro -ltx user_debug.ltx -skip_texture_load -nospawncheck
+
+Помните, эти бины для отладки багов, они не оптимизированы.
+
+Совет для кодеров:
+
+Лучше не меняйте в user.ltx 
+------------------------
+bind llookout kNUMPAD4
+bind rlookout kNUMPAD6
+------------------------
+Могут быть вылеты в отладчике.
+
+Используйте ключ -designer, чтобы бегать без npc.
+
+Папка ms_debug для Visual Studio, в binaries, меняете пути в файлах типа fsgame.ltx и отлаживаете игру.
+
+How to use mixed:
+
+- Unpack all game .db, update it with lastest la configs, scripts for gamedata
+- Move .db-archives from game folder
+- Delete .thm from textures folder: act, la_dc_hand, nps_la_dc (remove all .thm from COP SDK)
+- Play :)
+
+-external -noprefetch -nointro -ltx user_debug.ltx -skip_texture_load -nospawncheck
+
+Remember, this binaries for debug, they are not optimized.
+
+Better not to change in user.ltx
+------------------------
+bind llookout kNUMPAD4
+bind rlookout kNUMPAD6
+------------------------
+Can be crashes with debugger.
+
+Use key -designer, if you want to run without npc.
+
+Folder ms_debug for Visual Studio, put it to binaries, change pathes inside files like fsgame.ltx and debug game.
+
+If too bright contrast, gamma, etc, try:
+
+r2_tonemap_middlegray 0.5
+r2_gloss_factor 1.
+
+or delete appdata/shaders_cache

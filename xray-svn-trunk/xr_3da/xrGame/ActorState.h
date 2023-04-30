@@ -1,0 +1,33 @@
+#pragma once
+
+enum EActorState
+{
+	eJammedInactive = 0,
+	eJammedRed,
+	eJammedYellow,
+	eJammedGreen,
+	eRadiationInactive,
+	eRadiationRed,
+	eRadiationYellow,
+	eRadiationGreen,
+	eBleedingInactive,
+	eBleedingRed,
+	eBleedingYellow,
+	eBleedingGreen,
+	eHungerInactive,
+	eHungerRed,
+	eHungerYellow,
+	eHungerGreen,
+	eThirstInactive,
+	eThirstRed,
+	eThirstYellow,
+	eThirstGreen,
+	ePsyHealthInactive,
+	ePsyHealthRed,
+	ePsyHealthYellow,
+	ePsyHealthGreen,
+	eSleepInactive,
+	eSleepRed,
+	eSleepYellow,
+	eSleepGreen,
+};

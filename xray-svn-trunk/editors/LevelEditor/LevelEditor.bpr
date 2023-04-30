@@ -1,0 +1,929 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="x:\binaries\LevelEditor.exe"/>
+    <OBJFILES value="x:\intermediate_ed\le\LevelEditor.obj x:\intermediate_ed\le\BottomBar.obj 
+      x:\intermediate_ed\le\main.obj x:\intermediate_ed\le\TopBar.obj 
+      x:\intermediate_ed\le\stdafx.obj x:\intermediate_ed\le\DOOneColor.obj 
+      x:\intermediate_ed\le\DOShuffle.obj x:\intermediate_ed\le\EditLibrary.obj 
+      x:\intermediate_ed\le\EditLightAnim.obj 
+      x:\intermediate_ed\le\FrameAIMap.obj x:\intermediate_ed\le\FrameDetObj.obj 
+      x:\intermediate_ed\le\FrameGroup.obj x:\intermediate_ed\le\FrameLight.obj 
+      x:\intermediate_ed\le\FrameObject.obj 
+      x:\intermediate_ed\le\FramePortal.obj x:\intermediate_ed\le\FramePS.obj 
+      x:\intermediate_ed\le\FrameSector.obj x:\intermediate_ed\le\FrameShape.obj 
+      x:\intermediate_ed\le\FrameSpawn.obj 
+      x:\intermediate_ed\le\FrameWayPoint.obj x:\intermediate_ed\le\LeftBar.obj 
+      x:\intermediate_ed\le\ObjectList.obj 
+      x:\intermediate_ed\le\previewimage.obj x:\intermediate_ed\le\PropertiesEObject.obj 
+      x:\intermediate_ed\le\Splash.obj x:\intermediate_ed\le\UI_LevelTools.obj 
+      x:\intermediate_ed\le\UI_LevelMain.obj x:\intermediate_ed\le\WayPoint.obj 
+      x:\intermediate_ed\le\ESceneAIMapTools_Export.obj 
+      x:\intermediate_ed\le\Builder.obj x:\intermediate_ed\le\BuilderCF.obj 
+      x:\intermediate_ed\le\BuilderCore.obj 
+      x:\intermediate_ed\le\BuilderGame.obj x:\intermediate_ed\le\BuilderLTX.obj 
+      x:\intermediate_ed\le\BuilderOGF.obj 
+      x:\intermediate_ed\le\BuilderRemote.obj x:\intermediate_ed\le\Cursor3D.obj 
+      x:\intermediate_ed\le\Custom2DProjector.obj 
+      x:\intermediate_ed\le\ESceneDOTools.obj 
+      x:\intermediate_ed\le\EditObjectExportLWO.obj 
+      x:\intermediate_ed\le\ELight.obj 
+      x:\intermediate_ed\le\EParticlesObject.obj x:\intermediate_ed\le\ESceneAIMapTools.obj 
+      x:\intermediate_ed\le\ESceneAIMapTools_Controls.obj 
+      x:\intermediate_ed\le\ESceneAIMapTools_Generate.obj 
+      x:\intermediate_ed\le\ESceneAIMapTools_MotionSimulator.obj 
+      x:\intermediate_ed\le\ESceneAIMapTools_Pick.obj 
+      x:\intermediate_ed\le\ESceneAIMapTools_Render.obj 
+      x:\intermediate_ed\le\ESceneCustomMTools.obj 
+      x:\intermediate_ed\le\ESceneCustomMToolsControls.obj 
+      x:\intermediate_ed\le\ESceneCustomOTools.obj 
+      x:\intermediate_ed\le\ESceneCustomOToolsIO.obj 
+      x:\intermediate_ed\le\ESceneDummyTools.obj 
+      x:\intermediate_ed\le\ESceneGlowTools.obj 
+      x:\intermediate_ed\le\ESceneGroupTools.obj 
+      x:\intermediate_ed\le\ESceneLightTools.obj 
+      x:\intermediate_ed\le\ESceneLightToolsIO.obj 
+      x:\intermediate_ed\le\ESceneObjectTools.obj 
+      x:\intermediate_ed\le\EScenePortalTools.obj 
+      x:\intermediate_ed\le\EScenePSTools.obj 
+      x:\intermediate_ed\le\ESceneSectorTools.obj 
+      x:\intermediate_ed\le\ESceneShapeTools.obj 
+      x:\intermediate_ed\le\ESceneSoundEnvTools.obj 
+      x:\intermediate_ed\le\ESceneSoundSrcTools.obj 
+      x:\intermediate_ed\le\ESceneSpawnTools.obj 
+      x:\intermediate_ed\le\ESceneWayTools.obj x:\intermediate_ed\le\EShape.obj 
+      x:\intermediate_ed\le\ESound_Environment.obj 
+      x:\intermediate_ed\le\ESound_Source.obj x:\intermediate_ed\le\FS2.obj 
+      x:\intermediate_ed\le\Glow.obj x:\intermediate_ed\le\GroupObject.obj 
+      x:\intermediate_ed\le\portal.obj x:\intermediate_ed\le\portalutils.obj 
+      x:\intermediate_ed\le\scene.obj x:\intermediate_ed\le\Scene_Tools.obj 
+      x:\intermediate_ed\le\SceneIO.obj x:\intermediate_ed\le\SceneObject.obj 
+      x:\intermediate_ed\le\SceneObjectIO.obj 
+      x:\intermediate_ed\le\ScenePick.obj x:\intermediate_ed\le\SceneRender.obj 
+      x:\intermediate_ed\le\SceneSelection.obj 
+      x:\intermediate_ed\le\SceneSnap.obj 
+      x:\intermediate_ed\le\SceneSummaryInfo.obj 
+      x:\intermediate_ed\le\SceneUndo.obj x:\intermediate_ed\le\SceneUtil.obj 
+      x:\intermediate_ed\le\sector.obj x:\intermediate_ed\le\SoundManager_LE.obj 
+      x:\intermediate_ed\le\SpawnPoint.obj 
+      x:\intermediate_ed\le\ESceneAIMapControls.obj 
+      x:\intermediate_ed\le\ESceneControlsCustom.obj 
+      x:\intermediate_ed\le\ESceneObjectControls.obj 
+      x:\intermediate_ed\le\EScenePortalControls.obj 
+      x:\intermediate_ed\le\EScenePSControls.obj 
+      x:\intermediate_ed\le\ESceneSectorControls.obj 
+      x:\intermediate_ed\le\ESceneShapeControls.obj 
+      x:\intermediate_ed\le\ESceneSpawnControls.obj 
+      x:\intermediate_ed\le\ESceneWayControls.obj 
+      x:\intermediate_ed\le\ESceneGlowToolsIO.obj 
+      x:\intermediate_ed\le\EScenePortalToolsIO.obj 
+      x:\intermediate_ed\le\ESceneSectorToolsIO.obj 
+      x:\intermediate_ed\le\ESceneSpawnToolsIO.obj 
+      x:\intermediate_ed\le\ESceneObjectToolsIO.obj 
+      x:\intermediate_ed\le\EScenePSToolsIO.obj 
+      x:\intermediate_ed\le\ESceneShapeToolsIO.obj 
+      x:\intermediate_ed\le\ESceneSoundEnvToolsIO.obj 
+      x:\intermediate_ed\le\ESceneSoundSrcToolsIO.obj 
+      x:\intermediate_ed\le\ESceneWayToolsIO.obj 
+      x:\intermediate_ed\le\ESceneGroupToolsIO.obj 
+      x:\intermediate_ed\le\ESceneDOTools_Pick.obj 
+      x:\intermediate_ed\le\ESceneDOTools_Controls.obj 
+      x:\intermediate_ed\le\ESceneDOTools_Generate.obj 
+      x:\intermediate_ed\le\ObjectAnimator.obj 
+      x:\intermediate_ed\le\DetailManager.obj 
+      x:\intermediate_ed\le\DetailManager_soft.obj 
+      x:\intermediate_ed\le\DetailManager_CACHE.obj 
+      x:\intermediate_ed\le\DetailManager_Decompress.obj 
+      x:\intermediate_ed\le\DetailManager_VS.obj 
+      x:\intermediate_ed\le\ELight_props.obj x:\intermediate_ed\le\ELight_IO.obj 
+      x:\intermediate_ed\le\ESceneObjectToolsExportBreakable.obj 
+      x:\intermediate_ed\le\LevelGameDef.obj 
+      x:\intermediate_ed\le\ESceneWallmarkTools.obj 
+      x:\intermediate_ed\le\ESceneWallmarkControls.obj 
+      x:\intermediate_ed\le\GeometryPartExtractor.obj 
+      x:\intermediate_ed\le\BuilderLODs.obj 
+      x:\intermediate_ed\le\ESceneGroupControls.obj 
+      x:\intermediate_ed\le\CustomObjectLE.obj 
+      x:\intermediate_ed\le\CustomObject.obj 
+      x:\intermediate_ed\le\CustomObjectAnimation.obj 
+      x:\intermediate_ed\le\LevelPreferences.obj 
+      x:\intermediate_ed\le\FrmDBXpacker.obj 
+      x:\intermediate_ed\le\MgcConvexHull2D.obj 
+      x:\intermediate_ed\le\MgcAppr3DPlaneFit.obj 
+      x:\intermediate_ed\le\MgcEigen.obj x:\intermediate_ed\le\MgcVector2.obj 
+      x:\intermediate_ed\le\MgcVector3.obj 
+      x:\intermediate_ed\le\stats_manager.obj 
+      x:\intermediate_ed\le\AppendObjectInfoForm.obj 
+      x:\intermediate_ed\le\RightForm.obj x:\intermediate_ed\le\ExceptionLog.obj 
+      x:\intermediate_ed\le\ObjectAxisManager.obj"/>
+    <RESFILES value="LevelEditor.res resource.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) BottomBar.dfm main.dfm TopBar.dfm DOOneColor.dfm DOShuffle.dfm 
+      EditLibrary.dfm EditLightAnim.dfm FrameAIMap.dfm FrameDetObj.dfm 
+      FrameGroup.dfm FrameLight.dfm FrameObject.dfm FramePortal.dfm FramePS.dfm 
+      FrameSector.dfm FrameShape.dfm FrameSpawn.dfm FrameWayPoint.dfm 
+      LeftBar.dfm ObjectList.dfm previewimage.dfm PropertiesEObject.dfm 
+      Splash.dfm FrmDBXpacker.dfm Edit\AppendObjectInfoForm.dfm RightForm.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="dclusr.lib bcb2kaxserver.lib bcbie.lib visualdbclx.lib indy.lib dbxcds.lib 
+      dclocx.lib soaprtl.lib nmfast.lib dbexpress.lib inetdbxpress.lib 
+      inetdbbde.lib dsnapcon.lib dsnapcrba.lib teeqr.lib dss.lib tee.lib 
+      teedb.lib teeui.lib qrpt.lib bdecds.lib cds.lib ibxpress.lib vcldbx.lib 
+      bdertl.lib adortl.lib vcldb.lib editorB.lib bcbsmp.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib bcbsmp.lib vclx.lib editorB.lib elpackB6.lib elpproB6.lib 
+      editor.lib vcldb.lib adortl.lib bdertl.lib vcldbx.lib ibxpress.lib cds.lib 
+      bdecds.lib qrpt.lib teeui.lib teedb.lib tee.lib dss.lib teeqr.lib 
+      dsnapcrba.lib dsnapcon.lib inetdbbde.lib inetdbxpress.lib dbexpress.lib 
+      nmfast.lib soaprtl.lib dclocx.lib dbxcds.lib indy.lib visualdbclx.lib 
+      dceldbB6.lib bcbie.lib bcb2kaxserver.lib dclusr.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi vclx.bpi elpackB6.bpi elpkdbB6.bpi elpproB6.bpi 
+      dceldbB6.bpi editor.bpi"/>
+    <PATHCPP value=".;Edit;..\..\xr_3da;..\Ecore\EditorRender;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Containment2D;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Approximation3D;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Numerics;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Core2D;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Core3D"/>
+    <PATHPAS value=".;&quot;C:\Program Files (x86)\EurekaLab\EurekaLog 6\CBuilder6&quot;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_EDITOR;_LEVEL_EDITOR;_DEBUG;EUREKALOG;EUREKALOG_VER6"/>
+    <SYSDEFINES value="NO_STRICT;_RTLDLL;USEPACKAGES"/>
+    <MAINSOURCE value="LevelEditor.cpp"/>
+    <INCLUDEPATH value="..\Ecore\EditorRender;..\..\xr_3da;..\..\xr_3da\xrRender;&quot;C:\Program Files (x86)\EurekaLab\EurekaLog 6\CBuilder6&quot;;$(DXSDK_DIR)\Include;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Projects;..\..\..\SDK\MagicSoftware\FreeMagic\Source;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Core;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Core3D;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Core2D;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Numerics;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Approximation3D;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Containment2D;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Containment3D;..\..\xrCDB;..\..\ETools;Edit;Engine;$(COMPONENTS_SOC)\alexmx;$(COMPONENTS_SOC)\ElPack\Code;$(COMPONENTS_SOC)\ElPack\Code\Source;$(CORESOC_DIR)"/>
+    <LIBPATH value="..\Ecore\EditorRender;..\..\xr_3da;..\..\xr_3da\xrRender;&quot;C:\Program Files (x86)\EurekaLab\EurekaLog 6\CBuilder6&quot;;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;Edit;Engine;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Core3D;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Core2D;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Numerics;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Approximation3D;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Containment2D;..\..\ETools;..\..\xrCDB;$(COMPONENTS_SOC)\ElPack\Code;$(COMPONENTS_SOC)\ElPack\Code\Source;$(COMPONENTS_SOC)\AlexMX;$(SDK_DIR)\ETOOLSB;$(MAIN_DIR)\libraries"/>
+    <WARNINGS value="-w8092 -w8090 -w8089 -w8087 -wprc -wucp -wstv -wstu -wsig -wpin -w-par 
+      -wnod -wnak -w-8027 -w-8026 -wdef -wcln -wbbf -wasm -wamp -wamb"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I..\Ecore\EditorRender -I..\..\xr_3da 
+      -I&quot;C:\Program Files (x86)\EurekaLab\EurekaLog 6\CBuilder6&quot; 
+      -I$(DXSDK_DIR)\Include -I$(BCB)\include -I$(BCB)\include\vcl 
+      -I$(BCB)\Projects -I..\..\..\SDK\MagicSoftware\FreeMagic\Source 
+      -I..\..\..\SDK\MagicSoftware\FreeMagic\Source\Core 
+      -I..\..\..\SDK\MagicSoftware\FreeMagic\Source\Core3D 
+      -I..\..\..\SDK\MagicSoftware\FreeMagic\Source\Core2D 
+      -I..\..\..\SDK\MagicSoftware\FreeMagic\Source\Numerics 
+      -I..\..\..\SDK\MagicSoftware\FreeMagic\Source\Approximation3D 
+      -I..\..\..\SDK\MagicSoftware\FreeMagic\Source\Containment2D 
+      -I..\..\..\SDK\MagicSoftware\FreeMagic\Source\Containment3D -I..\..\xrCDB 
+      -I..\..\ETools -IEdit -IEngine -I$(COMPONENTS_SOC)\alexmx 
+      -I$(COMPONENTS_SOC)\ElPack\Code -I$(COMPONENTS_SOC)\ElPack\Code\Source 
+      -I$(CORESOC_DIR) -src_suffix cpp -D_EDITOR -D_LEVEL_EDITOR -D_DEBUG 
+      -DEUREKALOG -DEUREKALOG_VER6"/>
+    <CFLAG1 value="-Od -H=x:\intermediate_ed\le\pch.csm -Hc -Q -Vms -Vx -Ve -xf -xp -VF -ff 
+      -X- -r- -ps -a4 -6 -b- -k -y -v -vi- -He -c -tW -tWM"/>
+    <PFLAGS value="-N2x:\intermediate_ed\le -N0x:\intermediate_ed\le -$Y+ -$W -$R -$Q -$O- 
+      -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-lx:\libraries -Ix:\intermediate_ed\le -D&quot;&quot; -aa -Tpe -GD -Gn -v 
+      -GF:LARGEADDRESSAWARE"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="LevelEditor.cpp" FORMNAME="" UNITNAME="LevelEditor" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="LevelEditor.todo" FORMNAME="" UNITNAME="LevelEditor.todo" CONTAINERID="ToDo" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="LevelEditor.res" FORMNAME="" UNITNAME="LevelEditor.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="resource.res" FORMNAME="" UNITNAME="resource.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BottomBar.cpp" FORMNAME="fraBottomBar" UNITNAME="BottomBar" CONTAINERID="CCompiler" DESIGNCLASS="TFrame" LOCALCOMMAND=""/>
+      <FILE FILENAME="main.cpp" FORMNAME="frmMain" UNITNAME="main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TopBar.cpp" FORMNAME="fraTopBar" UNITNAME="TopBar" CONTAINERID="CCompiler" DESIGNCLASS="TFrame" LOCALCOMMAND=""/>
+      <FILE FILENAME="stdafx.cpp" FORMNAME="" UNITNAME="stdafx" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DOOneColor.cpp" FORMNAME="frmOneColor" UNITNAME="DOOneColor" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DOShuffle.cpp" FORMNAME="frmDOShuffle" UNITNAME="DOShuffle" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="EditLibrary.cpp" FORMNAME="frmEditLibrary" UNITNAME="EditLibrary" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="EditLightAnim.cpp" FORMNAME="frmEditLightAnim" UNITNAME="EditLightAnim" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FrameAIMap.cpp" FORMNAME="fraAIMap" UNITNAME="FrameAIMap" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FrameDetObj.cpp" FORMNAME="fraDetailObject" UNITNAME="FrameDetObj" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FrameGroup.cpp" FORMNAME="fraGroup" UNITNAME="FrameGroup" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FrameLight.cpp" FORMNAME="fraLight" UNITNAME="FrameLight" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FrameObject.cpp" FORMNAME="fraObject" UNITNAME="FrameObject" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FramePortal.cpp" FORMNAME="fraPortal" UNITNAME="FramePortal" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FramePS.cpp" FORMNAME="fraPS" UNITNAME="FramePS" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FrameSector.cpp" FORMNAME="fraSector" UNITNAME="FrameSector" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FrameShape.cpp" FORMNAME="fraShape" UNITNAME="FrameShape" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FrameSpawn.cpp" FORMNAME="fraSpawn" UNITNAME="FrameSpawn" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FrameWayPoint.cpp" FORMNAME="fraWayPoint" UNITNAME="FrameWayPoint" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="LeftBar.cpp" FORMNAME="fraLeftBar" UNITNAME="LeftBar" CONTAINERID="CCompiler" DESIGNCLASS="TFrame" LOCALCOMMAND=""/>
+      <FILE FILENAME="ObjectList.cpp" FORMNAME="frmObjectList" UNITNAME="ObjectList" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="previewimage.cpp" FORMNAME="frmPreviewImage" UNITNAME="previewimage" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PropertiesEObject.cpp" FORMNAME="frmPropertiesEObject" UNITNAME="PropertiesEObject" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Splash.cpp" FORMNAME="frmSplash" UNITNAME="Splash" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\UI_LevelTools.cpp" FORMNAME="" UNITNAME="UI_LevelTools" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\UI_LevelMain.cpp" FORMNAME="" UNITNAME="UI_LevelMain" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\WayPoint.cpp" FORMNAME="" UNITNAME="WayPoint.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneAIMapTools_Export.cpp" FORMNAME="" UNITNAME="ESceneAIMapTools_Export" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\Builder.cpp" FORMNAME="" UNITNAME="Builder.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\BuilderCF.cpp" FORMNAME="" UNITNAME="BuilderCF.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\BuilderCore.cpp" FORMNAME="" UNITNAME="BuilderCore.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\BuilderGame.cpp" FORMNAME="" UNITNAME="BuilderGame.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\BuilderLTX.cpp" FORMNAME="" UNITNAME="BuilderLTX.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\BuilderOGF.cpp" FORMNAME="" UNITNAME="BuilderOGF.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\BuilderRemote.cpp" FORMNAME="" UNITNAME="BuilderRemote.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\Cursor3D.cpp" FORMNAME="" UNITNAME="Cursor3D.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\Custom2DProjector.cpp" FORMNAME="" UNITNAME="Custom2DProjector.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneDOTools.cpp" FORMNAME="" UNITNAME="ESceneDOTools" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\EditObjectExportLWO.cpp" FORMNAME="" UNITNAME="EditObjectExportLWO.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ELight.cpp" FORMNAME="" UNITNAME="ELight.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\EParticlesObject.cpp" FORMNAME="" UNITNAME="EParticlesObject.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneAIMapTools.cpp" FORMNAME="" UNITNAME="ESceneAIMapTools.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneAIMapTools_Controls.cpp" FORMNAME="" UNITNAME="ESceneAIMapTools_Controls.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneAIMapTools_Generate.cpp" FORMNAME="" UNITNAME="ESceneAIMapTools_Generate.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneAIMapTools_MotionSimulator.cpp" FORMNAME="" UNITNAME="ESceneAIMapTools_MotionSimulator.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneAIMapTools_Pick.cpp" FORMNAME="" UNITNAME="ESceneAIMapTools_Pick.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneAIMapTools_Render.cpp" FORMNAME="" UNITNAME="ESceneAIMapTools_Render.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneCustomMTools.cpp" FORMNAME="" UNITNAME="ESceneCustomMTools.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneCustomMToolsControls.cpp" FORMNAME="" UNITNAME="ESceneCustomMToolsControls.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneCustomOTools.cpp" FORMNAME="" UNITNAME="ESceneCustomOTools.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneCustomOToolsIO.cpp" FORMNAME="" UNITNAME="ESceneCustomOToolsIO.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneDummyTools.cpp" FORMNAME="" UNITNAME="ESceneDummyTools.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneGlowTools.cpp" FORMNAME="" UNITNAME="ESceneGlowTools.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneGroupTools.cpp" FORMNAME="" UNITNAME="ESceneGroupTools.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneLightTools.cpp" FORMNAME="" UNITNAME="ESceneLightTools.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneLightToolsIO.cpp" FORMNAME="" UNITNAME="ESceneLightToolsIO.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneObjectTools.cpp" FORMNAME="" UNITNAME="ESceneObjectTools.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\EScenePortalTools.cpp" FORMNAME="" UNITNAME="EScenePortalTools.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\EScenePSTools.cpp" FORMNAME="" UNITNAME="EScenePSTools.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneSectorTools.cpp" FORMNAME="" UNITNAME="ESceneSectorTools.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneShapeTools.cpp" FORMNAME="" UNITNAME="ESceneShapeTools.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneSoundEnvTools.cpp" FORMNAME="" UNITNAME="ESceneSoundEnvTools.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneSoundSrcTools.cpp" FORMNAME="" UNITNAME="ESceneSoundSrcTools.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneSpawnTools.cpp" FORMNAME="" UNITNAME="ESceneSpawnTools.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneWayTools.cpp" FORMNAME="" UNITNAME="ESceneWayTools.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\EShape.cpp" FORMNAME="" UNITNAME="EShape.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESound_Environment.cpp" FORMNAME="" UNITNAME="ESound_Environment.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESound_Source.cpp" FORMNAME="" UNITNAME="ESound_Source.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\FS2.CPP" FORMNAME="" UNITNAME="FS2.CPP" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\Glow.cpp" FORMNAME="" UNITNAME="Glow.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\GroupObject.cpp" FORMNAME="" UNITNAME="GroupObject.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\portal.cpp" FORMNAME="" UNITNAME="portal.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\portalutils.cpp" FORMNAME="" UNITNAME="portalutils.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\scene.cpp" FORMNAME="" UNITNAME="Scene.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\Scene_Tools.cpp" FORMNAME="" UNITNAME="Scene_Tools.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\SceneIO.cpp" FORMNAME="" UNITNAME="SceneIO.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\SceneObject.cpp" FORMNAME="" UNITNAME="SceneObject.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\SceneObjectIO.cpp" FORMNAME="" UNITNAME="SceneObjectIO.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ScenePick.cpp" FORMNAME="" UNITNAME="ScenePick.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\SceneRender.cpp" FORMNAME="" UNITNAME="SceneRender.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\SceneSelection.cpp" FORMNAME="" UNITNAME="SceneSelection.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\SceneSnap.cpp" FORMNAME="" UNITNAME="SceneSnap.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\SceneSummaryInfo.cpp" FORMNAME="" UNITNAME="SceneSummaryInfo.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\SceneUndo.cpp" FORMNAME="" UNITNAME="SceneUndo.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\SceneUtil.cpp" FORMNAME="" UNITNAME="SceneUtil.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\sector.cpp" FORMNAME="" UNITNAME="sector.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\SoundManager_LE.cpp" FORMNAME="" UNITNAME="SoundManager_LE.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\SpawnPoint.cpp" FORMNAME="" UNITNAME="SpawnPoint.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneAIMapControls.cpp" FORMNAME="" UNITNAME="ESceneAIMapControls" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneControlsCustom.cpp" FORMNAME="" UNITNAME="ESceneControlsCustom" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneObjectControls.cpp" FORMNAME="" UNITNAME="ESceneObjectControls" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\EScenePortalControls.cpp" FORMNAME="" UNITNAME="EScenePortalControls" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\EScenePSControls.cpp" FORMNAME="" UNITNAME="EScenePSControls" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneSectorControls.cpp" FORMNAME="" UNITNAME="ESceneSectorControls" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneShapeControls.cpp" FORMNAME="" UNITNAME="ESceneShapeControls" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneSpawnControls.cpp" FORMNAME="" UNITNAME="ESceneSpawnControls" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneWayControls.cpp" FORMNAME="" UNITNAME="ESceneWayControls" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneGlowToolsIO.cpp" FORMNAME="" UNITNAME="ESceneGlowToolsIO" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\EScenePortalToolsIO.cpp" FORMNAME="" UNITNAME="EScenePortalToolsIO" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneSectorToolsIO.cpp" FORMNAME="" UNITNAME="ESceneSectorToolsIO" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneSpawnToolsIO.cpp" FORMNAME="" UNITNAME="ESceneSpawnToolsIO" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneObjectToolsIO.cpp" FORMNAME="" UNITNAME="ESceneObjectToolsIO" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\EScenePSToolsIO.cpp" FORMNAME="" UNITNAME="EScenePSToolsIO" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneShapeToolsIO.cpp" FORMNAME="" UNITNAME="ESceneShapeToolsIO" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneSoundEnvToolsIO.cpp" FORMNAME="" UNITNAME="ESceneSoundEnvToolsIO" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneSoundSrcToolsIO.cpp" FORMNAME="" UNITNAME="ESceneSoundSrcToolsIO" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneWayToolsIO.cpp" FORMNAME="" UNITNAME="ESceneWayToolsIO" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneGroupToolsIO.cpp" FORMNAME="" UNITNAME="ESceneGroupToolsIO" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneDOTools_Pick.cpp" FORMNAME="" UNITNAME="ESceneDOTools_Pick.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneDOTools_Controls.cpp" FORMNAME="" UNITNAME="ESceneDOTools_Controls.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneDOTools_Generate.cpp" FORMNAME="" UNITNAME="ESceneDOTools_Generate.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\xr_3da\ObjectAnimator.cpp" FORMNAME="" UNITNAME="ObjectAnimator" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Ecore\EditorRender\DetailManager.cpp" FORMNAME="" UNITNAME="DetailManager" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Ecore\EditorRender\DetailManager_soft.cpp" FORMNAME="" UNITNAME="DetailManager_soft" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Ecore\EditorRender\DetailManager_CACHE.cpp" FORMNAME="" UNITNAME="DetailManager_CACHE" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Ecore\EditorRender\DetailManager_Decompress.cpp" FORMNAME="" UNITNAME="DetailManager_Decompress" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Ecore\EditorRender\DetailManager_VS.cpp" FORMNAME="" UNITNAME="DetailManager_VS" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ELight_props.cpp" FORMNAME="" UNITNAME="ELight_props" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ELight_IO.cpp" FORMNAME="" UNITNAME="ELight_IO" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ELight_def.h" FORMNAME="" UNITNAME="ELight_def.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneObjectToolsExportBreakable.cpp" FORMNAME="" UNITNAME="ESceneObjectToolsExportBreakable" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\LevelGameDef.cpp" FORMNAME="" UNITNAME="LevelGameDef" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneWallmarkTools.cpp" FORMNAME="" UNITNAME="ESceneWallmarkTools" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneWallmarkControls.cpp" FORMNAME="" UNITNAME="ESceneWallmarkControls" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Engine\ShapeData.h" FORMNAME="" UNITNAME="ShapeData.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\GeometryPartExtractor.cpp" FORMNAME="" UNITNAME="GeometryPartExtractor" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\BuilderLODs.cpp" FORMNAME="" UNITNAME="BuilderLODs" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ESceneGroupControls.cpp" FORMNAME="" UNITNAME="ESceneGroupControls" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\CustomObjectLE.cpp" FORMNAME="" UNITNAME="CustomObjectLE" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\CustomObject.cpp" FORMNAME="" UNITNAME="CustomObject.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\CustomObject.h" FORMNAME="" UNITNAME="CustomObject.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\CustomObjectAnimation.cpp" FORMNAME="" UNITNAME="CustomObjectAnimation.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\LevelPreferences.cpp" FORMNAME="" UNITNAME="LevelPreferences" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FrmDBXpacker.cpp" FORMNAME="DB_packer" UNITNAME="FrmDBXpacker" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\..\SDK\MagicSoftware\FreeMagic\Source\Containment2D\MgcConvexHull2D.cpp" FORMNAME="" UNITNAME="MgcConvexHull2D" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\..\SDK\MagicSoftware\FreeMagic\Source\Approximation3D\MgcAppr3DPlaneFit.cpp" FORMNAME="" UNITNAME="MgcAppr3DPlaneFit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\..\SDK\MagicSoftware\FreeMagic\Source\Numerics\MgcEigen.cpp" FORMNAME="" UNITNAME="MgcEigen" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\..\SDK\MagicSoftware\FreeMagic\Source\Core2D\MgcVector2.cpp" FORMNAME="" UNITNAME="MgcVector2" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\..\SDK\MagicSoftware\FreeMagic\Source\Core3D\MgcVector3.cpp" FORMNAME="" UNITNAME="MgcVector3" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Ecore\EditorRender\stats_manager.cpp" FORMNAME="" UNITNAME="stats_manager" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\AppendObjectInfoForm.cpp" FORMNAME="frmAppendObjectInfo" UNITNAME="AppendObjectInfoForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RightForm.cpp" FORMNAME="frmRight" UNITNAME="RightForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="C:\Program Files (x86)\EurekaLab\EurekaLog 6\CBuilder6\ExceptionLog.pas" FORMNAME="" UNITNAME="ExceptionLog" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Edit\ObjectAxisManager.cpp" FORMNAME="" UNITNAME="ObjectAxisManager" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=1
+MajorVer=1
+MinorVer=0
+Release=2
+Build=176
+Debug=1
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1033
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.2.176
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+C:\PROGRA~2\Borland\CBUILD~1\Projects\Bpl\bcbshlctrls.bpl=Win32 Shell Controls
+
+[HistoryLists\hlIncludePath]
+Count=2
+Item0=..\Ecore\EditorRender;..\..\xr_3da;C:\Program Files (x86)\EurekaLab\EurekaLog 6\CBuilder6;$(DXSDK_DIR)\Include;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Projects;..\..\..\SDK\MagicSoftware\FreeMagic\Source;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Core;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Core3D;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Core2D;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Numerics;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Approximation3D;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Containment2D;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Containment3D;..\..\xrCDB;..\..\ETools;Edit;Engine;$(COMPONENTS_SOC)\alexmx;$(COMPONENTS_SOC)\ElPack\Code;$(COMPONENTS_SOC)\ElPack\Code\Source;$(CORESOC_DIR)
+Item1=..\..\xr_3da;..\Ecore\EditorRender;C:\Program Files (x86)\EurekaLab\EurekaLog 6\CBuilder6;$(DXSDK_DIR)\Include;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Projects;..\..\..\SDK\MagicSoftware\FreeMagic\Source;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Core;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Core3D;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Core2D;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Numerics;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Approximation3D;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Containment2D;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Containment3D;..\..\xrCDB;..\..\ETools;Edit;Engine;$(COMPONENTS_SOC)\alexmx;$(COMPONENTS_SOC)\ElPack\Code;$(COMPONENTS_SOC)\ElPack\Code\Source;$(CORESOC_DIR)
+
+[HistoryLists\hlLibraryPath]
+Count=2
+Item0=..\Ecore\EditorRender;..\..\xr_3da;C:\Program Files (x86)\EurekaLab\EurekaLog 6\CBuilder6;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;Edit;Engine;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Core3D;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Core2D;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Numerics;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Approximation3D;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Containment2D;..\..\ETools;..\..\xrCDB;$(COMPONENTS_SOC)\ElPack\Code;$(COMPONENTS_SOC)\ElPack\Code\Source;$(COMPONENTS_SOC)\AlexMX;$(SDK_DIR)\ETOOLSB;$(MAIN_DIR)\libraries
+Item1=..\..\xr_3da;..\Ecore\EditorRender;C:\Program Files (x86)\EurekaLab\EurekaLog 6\CBuilder6;$(BCB)\Projects;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Projects\Lib;Edit;Engine;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Core3D;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Core2D;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Numerics;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Approximation3D;..\..\..\SDK\MagicSoftware\FreeMagic\Source\Containment2D;..\..\ETools;..\..\xrCDB;$(COMPONENTS_SOC)\ElPack\Code;$(COMPONENTS_SOC)\ElPack\Code\Source;$(COMPONENTS_SOC)\AlexMX;$(SDK_DIR)\ETOOLSB;$(MAIN_DIR)\libraries
+
+[HistoryLists\hlDebugSourcePath]
+Count=2
+Item0=X:\stalker\xray-svn-trunk\editors\ECore\Editor
+Item1=c:\rad\borland\cbuilder5\source\vcl;R:\Borland\Components6\AlexMX\
+
+[HistoryLists\hlConditionals]
+Count=5
+Item0=_EDITOR;_LEVEL_EDITOR;_DEBUG;EUREKALOG;EUREKALOG_VER6
+Item1=_EDITOR;_LEVEL_EDITOR;_DEBUG;
+Item2=_EDITOR;_LEVEL_EDITOR;_DEBUG
+Item3=_EDITOR;_LEVEL_EDITOR;_DEBUG
+Item4=_EDITOR;_LEVEL_EDITOR;_DEBUG
+
+[HistoryLists\hlIntOutputDir]
+Count=2
+Item0=x:\intermediate_ed\le
+Item1=intermediate
+
+[HistoryLists\hlFinalOutputDir]
+Count=3
+Item0=x:\binaries\
+Item1=x:\binaries
+Item2=x:\
+
+[HistoryLists\hIBPIOutputDir]
+Count=1
+Item0=x:\libraries
+
+[Debugging]
+DebugSourceDirs=X:\stalker\xray-svn-trunk\editors\ECore\Editor
+
+[Parameters]
+RunParams=-dsound
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=x:\binaries\LevelEditor.exe
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  <!-- EurekaLog First Line
+[Exception Log]
+EurekaLog Version=6101
+Activate=1
+Activate Handle=1
+Save Log File=1
+Foreground Tab=0
+Freeze Activate=0
+Freeze Timeout=0
+SMTP From=eurekalog@email.com
+SMTP Host=
+SMTP Port=25
+SMTP UserID=
+SMTP Password=
+Append to Log=0
+TerminateBtn Operation=2
+Errors Number=32
+Errors Terminate=3
+Email Address=
+Email Object=
+Email Send Options=0
+Output Path=
+Encrypt Password=
+AutoCloseDialogSecs=0
+WebSendMode=0
+SupportULR=
+HTMLLayout Count=15
+HTMLLine0="%3Chtml%3E"
+HTMLLine1="  %3Chead%3E"
+HTMLLine2="  %3C/head%3E"
+HTMLLine3="  %3Cbody TopMargin=10 LeftMargin=10%3E"
+HTMLLine4="    %3Ctable width="100%%" border="0"%3E"
+HTMLLine5="      %3Ctr%3E"
+HTMLLine6="        %3Ctd nowrap%3E"
+HTMLLine7="          %3Cfont face="Lucida Console, Courier" size="2"%3E"
+HTMLLine8="            %3C%%HTML_TAG%%%3E"
+HTMLLine9="          %3C/font%3E"
+HTMLLine10="        %3C/td%3E"
+HTMLLine11="      %3C/tr%3E"
+HTMLLine12="    %3C/table%3E"
+HTMLLine13="  %3C/body%3E"
+HTMLLine14="%3C/html%3E"
+AutoCrashOperation=2
+AutoCrashNumber=10
+AutoCrashMinutes=1
+WebURL=
+WebUserID=
+WebPassword=
+WebPort=0
+AttachedFiles=
+ProxyURL=
+ProxyUser=
+ProxyPassword=
+ProxyPort=8080
+TrakerUser=
+TrakerPassword=
+TrakerAssignTo=
+TrakerProject=
+TrakerCategory=
+TrakerTrialID=
+ZipPassword=
+PreBuildEvent=
+PostSuccessfulBuildEvent=
+PostFailureBuildEvent=
+ExceptionDialogType=2
+Count=0
+EMail Message Line Count=0
+loNoDuplicateErrors=0
+loAppendReproduceText=0
+loDeleteLogAtVersionChange=0
+loAddComputerNameInLogFileName=0
+loSaveModulesAndProcessesSections=1
+loSaveAssemblerAndCPUSections=1
+soAppStartDate=1
+soAppName=1
+soAppVersionNumber=1
+soAppParameters=1
+soAppCompilationDate=1
+soAppUpTime=1
+soExcDate=1
+soExcAddress=1
+soExcModuleName=1
+soExcModuleVersion=1
+soExcType=1
+soExcMessage=1
+soExcID=1
+soExcCount=1
+soExcStatus=1
+soExcNote=1
+soUserID=1
+soUserName=1
+soUserEmail=1
+soUserPrivileges=1
+soUserCompany=1
+soActCtlsFormClass=1
+soActCtlsFormText=1
+soActCtlsControlClass=1
+soActCtlsControlText=1
+soCmpName=1
+soCmpTotalMemory=1
+soCmpFreeMemory=1
+soCmpTotalDisk=1
+soCmpFreeDisk=1
+soCmpSysUpTime=1
+soCmpProcessor=1
+soCmpDisplayMode=1
+soCmpDisplayDPI=1
+soCmpVideoCard=1
+soCmpPrinter=1
+soOSType=1
+soOSBuildN=1
+soOSUpdate=1
+soOSLanguage=1
+soOSCharset=1
+soNetIP=1
+soNetSubmask=1
+soNetGateway=1
+soNetDNS1=1
+soNetDNS2=1
+soNetDHCP=1
+soCustomData=1
+sndShowSendDialog=1
+sndShowSuccessFailureMsg=0
+sndSendEntireLog=0
+sndSendXMLLogCopy=0
+sndSendScreenshot=1
+sndUseOnlyActiveWindow=0
+sndSendLastHTMLPage=1
+sndSendInSeparatedThread=0
+sndAddDateInFileName=0
+sndAddComputerNameInFileName=0
+edoSendErrorReportChecked=1
+edoAttachScreenshotChecked=1
+edoShowCopyToClipOption=1
+edoShowDetailsButton=1
+edoShowInDetailedMode=0
+edoShowInTopMostMode=0
+edoUseEurekaLogLookAndFeel=0
+edoShowSendErrorReportOption=1
+edoShowAttachScreenshotOption=1
+edoShowCustomButton=0
+csoShowDLLs=1
+csoShowBPLs=1
+csoShowBorlandThreads=1
+csoShowWindowsThreads=1
+csoDoNotStoreProcNames=0
+boPauseBorlandThreads=0
+boDoNotPauseMainThread=0
+boPauseWindowsThreads=0
+boUseMainModuleOptions=1
+boCopyLogInCaseOfError=1
+boSaveCompressedCopyInCaseOfError=0
+boHandleSafeCallExceptions=1
+boCallRTLExceptionEvent=0
+boCatchHandledExceptions=0
+loCatchLeaks=0
+loGroupsSonLeaks=1
+loHideBorlandLeaks=1
+loFreeAllLeaks=1
+loCatchLeaksExceptions=1
+cfoReduceFileSize=1
+cfoCheckFileCorruption=0
+cfoUseEL7=0
+Count mtInformationMsgCaption=1
+mtInformationMsgCaption0="Information."
+Count mtQuestionMsgCaption=1
+mtQuestionMsgCaption0="Question."
+Count mtErrorMsgCaption=1
+mtErrorMsgCaption0="Error."
+Count mtDialog_Caption=1
+mtDialog_Caption0="Error occurred"
+Count mtDialog_ErrorMsgCaption=2
+mtDialog_ErrorMsgCaption0="An error has occurred during program execution."
+mtDialog_ErrorMsgCaption1="Please read the following information for further details."
+Count mtDialog_GeneralCaption=1
+mtDialog_GeneralCaption0="General"
+Count mtDialog_GeneralHeader=1
+mtDialog_GeneralHeader0="General Information"
+Count mtDialog_CallStackCaption=1
+mtDialog_CallStackCaption0="Call Stack"
+Count mtDialog_CallStackHeader=1
+mtDialog_CallStackHeader0="Call Stack Information"
+Count mtDialog_ModulesCaption=1
+mtDialog_ModulesCaption0="Modules"
+Count mtDialog_ModulesHeader=1
+mtDialog_ModulesHeader0="Modules Information"
+Count mtDialog_ProcessesCaption=1
+mtDialog_ProcessesCaption0="Processes"
+Count mtDialog_ProcessesHeader=1
+mtDialog_ProcessesHeader0="Processes Information"
+Count mtDialog_AsmCaption=1
+mtDialog_AsmCaption0="Assembler"
+Count mtDialog_AsmHeader=1
+mtDialog_AsmHeader0="Assembler Information"
+Count mtDialog_CPUCaption=1
+mtDialog_CPUCaption0="CPU"
+Count mtDialog_CPUHeader=1
+mtDialog_CPUHeader0="CPU Information"
+Count mtDialog_OKButtonCaption=1
+mtDialog_OKButtonCaption0="%26OK"
+Count mtDialog_TerminateButtonCaption=1
+mtDialog_TerminateButtonCaption0="%26Terminate"
+Count mtDialog_RestartButtonCaption=1
+mtDialog_RestartButtonCaption0="%26Restart"
+Count mtDialog_DetailsButtonCaption=1
+mtDialog_DetailsButtonCaption0="%26Details"
+Count mtDialog_CustomButtonCaption=1
+mtDialog_CustomButtonCaption0="%26Help"
+Count mtDialog_SendMessage=1
+mtDialog_SendMessage0="%26Send this error via Internet"
+Count mtDialog_ScreenshotMessage=1
+mtDialog_ScreenshotMessage0="%26Attach a Screenshot image"
+Count mtDialog_CopyMessage=1
+mtDialog_CopyMessage0="%26Copy to Clipboard"
+Count mtDialog_SupportMessage=1
+mtDialog_SupportMessage0="Go to the Support Page"
+Count mtMSDialog_ErrorMsgCaption=1
+mtMSDialog_ErrorMsgCaption0="The application has encountered a problem. We are sorry for the inconvenience."
+Count mtMSDialog_RestartCaption=1
+mtMSDialog_RestartCaption0="Restart application."
+Count mtMSDialog_TerminateCaption=1
+mtMSDialog_TerminateCaption0="Terminate application."
+Count mtMSDialog_PleaseCaption=1
+mtMSDialog_PleaseCaption0="Please tell us about this problem."
+Count mtMSDialog_DescriptionCaption=1
+mtMSDialog_DescriptionCaption0="We have created an error report that you can send to us. We will treat this report as confidential and anonymous."
+Count mtMSDialog_SeeDetailsCaption=1
+mtMSDialog_SeeDetailsCaption0="To see what data the error report contains,"
+Count mtMSDialog_SeeClickCaption=1
+mtMSDialog_SeeClickCaption0="click here."
+Count mtMSDialog_HowToReproduceCaption=1
+mtMSDialog_HowToReproduceCaption0="What were you doing when the problem happened (optional)?"
+Count mtMSDialog_EmailCaption=1
+mtMSDialog_EmailCaption0="Email address (optional):"
+Count mtMSDialog_SendButtonCaption=1
+mtMSDialog_SendButtonCaption0="%26Send Error Report"
+Count mtMSDialog_NoSendButtonCaption=1
+mtMSDialog_NoSendButtonCaption0="%26Don't Send"
+Count mtLog_AppHeader=1
+mtLog_AppHeader0="Application"
+Count mtLog_AppStartDate=1
+mtLog_AppStartDate0="Start Date"
+Count mtLog_AppName=1
+mtLog_AppName0="Name/Description"
+Count mtLog_AppVersionNumber=1
+mtLog_AppVersionNumber0="Version Number"
+Count mtLog_AppParameters=1
+mtLog_AppParameters0="Parameters"
+Count mtLog_AppCompilationDate=1
+mtLog_AppCompilationDate0="Compilation Date"
+Count mtLog_AppUpTime=1
+mtLog_AppUpTime0="Up Time"
+Count mtLog_ExcHeader=1
+mtLog_ExcHeader0="Exception"
+Count mtLog_ExcDate=1
+mtLog_ExcDate0="Date"
+Count mtLog_ExcAddress=1
+mtLog_ExcAddress0="Address"
+Count mtLog_ExcModuleName=1
+mtLog_ExcModuleName0="Module Name"
+Count mtLog_ExcModuleVersion=1
+mtLog_ExcModuleVersion0="Module Version"
+Count mtLog_ExcType=1
+mtLog_ExcType0="Type"
+Count mtLog_ExcMessage=1
+mtLog_ExcMessage0="Message"
+Count mtLog_ExcID=1
+mtLog_ExcID0="ID"
+Count mtLog_ExcCount=1
+mtLog_ExcCount0="Count"
+Count mtLog_ExcStatus=1
+mtLog_ExcStatus0="Status"
+Count mtLog_ExcNote=1
+mtLog_ExcNote0="Note"
+Count mtLog_UserHeader=1
+mtLog_UserHeader0="User"
+Count mtLog_UserID=1
+mtLog_UserID0="ID"
+Count mtLog_UserName=1
+mtLog_UserName0="Name"
+Count mtLog_UserEmail=1
+mtLog_UserEmail0="Email"
+Count mtLog_UserCompany=1
+mtLog_UserCompany0="Company"
+Count mtLog_UserPrivileges=1
+mtLog_UserPrivileges0="Privileges"
+Count mtLog_ActCtrlsHeader=1
+mtLog_ActCtrlsHeader0="Active Controls"
+Count mtLog_ActCtrlsFormClass=1
+mtLog_ActCtrlsFormClass0="Form Class"
+Count mtLog_ActCtrlsFormText=1
+mtLog_ActCtrlsFormText0="Form Text"
+Count mtLog_ActCtrlsControlClass=1
+mtLog_ActCtrlsControlClass0="Control Class"
+Count mtLog_ActCtrlsControlText=1
+mtLog_ActCtrlsControlText0="Control Text"
+Count mtLog_CmpHeader=1
+mtLog_CmpHeader0="Computer"
+Count mtLog_CmpName=1
+mtLog_CmpName0="Name"
+Count mtLog_CmpTotalMemory=1
+mtLog_CmpTotalMemory0="Total Memory"
+Count mtLog_CmpFreeMemory=1
+mtLog_CmpFreeMemory0="Free Memory"
+Count mtLog_CmpTotalDisk=1
+mtLog_CmpTotalDisk0="Total Disk"
+Count mtLog_CmpFreeDisk=1
+mtLog_CmpFreeDisk0="Free Disk"
+Count mtLog_CmpSystemUpTime=1
+mtLog_CmpSystemUpTime0="System Up Time"
+Count mtLog_CmpProcessor=1
+mtLog_CmpProcessor0="Processor"
+Count mtLog_CmpDisplayMode=1
+mtLog_CmpDisplayMode0="Display Mode"
+Count mtLog_CmpDisplayDPI=1
+mtLog_CmpDisplayDPI0="Display DPI"
+Count mtLog_CmpVideoCard=1
+mtLog_CmpVideoCard0="Video Card"
+Count mtLog_CmpPrinter=1
+mtLog_CmpPrinter0="Printer"
+Count mtLog_OSHeader=1
+mtLog_OSHeader0="Operating System"
+Count mtLog_OSType=1
+mtLog_OSType0="Type"
+Count mtLog_OSBuildN=1
+mtLog_OSBuildN0="Build #"
+Count mtLog_OSUpdate=1
+mtLog_OSUpdate0="Update"
+Count mtLog_OSLanguage=1
+mtLog_OSLanguage0="Language"
+Count mtLog_OSCharset=1
+mtLog_OSCharset0="Charset"
+Count mtLog_NetHeader=1
+mtLog_NetHeader0="Network"
+Count mtLog_NetIP=1
+mtLog_NetIP0="IP Address"
+Count mtLog_NetSubmask=1
+mtLog_NetSubmask0="Submask"
+Count mtLog_NetGateway=1
+mtLog_NetGateway0="Gateway"
+Count mtLog_NetDNS1=1
+mtLog_NetDNS10="DNS 1"
+Count mtLog_NetDNS2=1
+mtLog_NetDNS20="DNS 2"
+Count mtLog_NetDHCP=1
+mtLog_NetDHCP0="DHCP"
+Count mtLog_CustInfoHeader=1
+mtLog_CustInfoHeader0="Custom Information"
+Count mtCallStack_Address=1
+mtCallStack_Address0="Address"
+Count mtCallStack_Name=1
+mtCallStack_Name0="Module"
+Count mtCallStack_Unit=1
+mtCallStack_Unit0="Unit"
+Count mtCallStack_Class=1
+mtCallStack_Class0="Class"
+Count mtCallStack_Procedure=1
+mtCallStack_Procedure0="Procedure/Method"
+Count mtCallStack_Line=1
+mtCallStack_Line0="Line"
+Count mtCallStack_MainThread=1
+mtCallStack_MainThread0="Main"
+Count mtCallStack_ExceptionThread=1
+mtCallStack_ExceptionThread0="Exception Thread"
+Count mtCallStack_RunningThread=1
+mtCallStack_RunningThread0="Running Thread"
+Count mtCallStack_CallingThread=1
+mtCallStack_CallingThread0="Calling Thread"
+Count mtCallStack_ThreadID=1
+mtCallStack_ThreadID0="ID"
+Count mtCallStack_ThreadPriority=1
+mtCallStack_ThreadPriority0="Priority"
+Count mtCallStack_ThreadClass=1
+mtCallStack_ThreadClass0="Class"
+Count mtCallStack_LeakCaption=1
+mtCallStack_LeakCaption0="Memory Leak"
+Count mtCallStack_LeakData=1
+mtCallStack_LeakData0="Data"
+Count mtCallStack_LeakType=1
+mtCallStack_LeakType0="Type"
+Count mtCallStack_LeakSize=1
+mtCallStack_LeakSize0="Total size"
+Count mtCallStack_LeakCount=1
+mtCallStack_LeakCount0="Count"
+Count mtSendDialog_Caption=1
+mtSendDialog_Caption0="Send."
+Count mtSendDialog_Message=1
+mtSendDialog_Message0="Message"
+Count mtSendDialog_Resolving=1
+mtSendDialog_Resolving0="Resolving DNS..."
+Count mtSendDialog_Login=1
+mtSendDialog_Login0="Login..."
+Count mtSendDialog_Connecting=1
+mtSendDialog_Connecting0="Connecting with server..."
+Count mtSendDialog_Connected=1
+mtSendDialog_Connected0="Connected with server."
+Count mtSendDialog_Sending=1
+mtSendDialog_Sending0="Sending message..."
+Count mtSendDialog_Sent=1
+mtSendDialog_Sent0="Message sent."
+Count mtSendDialog_SelectProject=1
+mtSendDialog_SelectProject0="Select project..."
+Count mtSendDialog_Searching=1
+mtSendDialog_Searching0="Searching..."
+Count mtSendDialog_Modifying=1
+mtSendDialog_Modifying0="Modifying..."
+Count mtSendDialog_Disconnecting=1
+mtSendDialog_Disconnecting0="Disconnecting..."
+Count mtSendDialog_Disconnected=1
+mtSendDialog_Disconnected0="Disconnected."
+Count mtReproduceDialog_Caption=1
+mtReproduceDialog_Caption0="Request"
+Count mtReproduceDialog_Request=1
+mtReproduceDialog_Request0="Please describe the steps to reproduce the error:"
+Count mtReproduceDialog_OKButtonCaption=1
+mtReproduceDialog_OKButtonCaption0="%26OK"
+Count mtModules_Handle=1
+mtModules_Handle0="Handle"
+Count mtModules_Name=1
+mtModules_Name0="Name"
+Count mtModules_Description=1
+mtModules_Description0="Description"
+Count mtModules_Version=1
+mtModules_Version0="Version"
+Count mtModules_Size=1
+mtModules_Size0="Size"
+Count mtModules_LastModified=1
+mtModules_LastModified0="Modified"
+Count mtModules_Path=1
+mtModules_Path0="Path"
+Count mtProcesses_ID=1
+mtProcesses_ID0="ID"
+Count mtProcesses_Name=1
+mtProcesses_Name0="Name"
+Count mtProcesses_Description=1
+mtProcesses_Description0="Description"
+Count mtProcesses_Version=1
+mtProcesses_Version0="Version"
+Count mtProcesses_Memory=1
+mtProcesses_Memory0="Memory"
+Count mtProcesses_Priority=1
+mtProcesses_Priority0="Priority"
+Count mtProcesses_Threads=1
+mtProcesses_Threads0="Threads"
+Count mtProcesses_Path=1
+mtProcesses_Path0="Path"
+Count mtCPU_Registers=1
+mtCPU_Registers0="Registers"
+Count mtCPU_Stack=1
+mtCPU_Stack0="Stack"
+Count mtCPU_MemoryDump=1
+mtCPU_MemoryDump0="Memory Dump"
+Count mtSend_SuccessMsg=1
+mtSend_SuccessMsg0="The message was sent successfully."
+Count mtSend_FailureMsg=1
+mtSend_FailureMsg0="Sorry, sending the message didn't work."
+Count mtSend_BugClosedMsg=2
+mtSend_BugClosedMsg0="These BUG is just closed."
+mtSend_BugClosedMsg1="Contact the program support to obtain an update."
+Count mtSend_UnknownErrorMsg=1
+mtSend_UnknownErrorMsg0="Unknown error."
+Count mtSend_InvalidLoginMsg=1
+mtSend_InvalidLoginMsg0="Invalid login request."
+Count mtSend_InvalidSearchMsg=1
+mtSend_InvalidSearchMsg0="Invalid search request."
+Count mtSend_InvalidSelectionMsg=1
+mtSend_InvalidSelectionMsg0="Invalid selection request."
+Count mtSend_InvalidInsertMsg=1
+mtSend_InvalidInsertMsg0="Invalid insert request."
+Count mtSend_InvalidModifyMsg=1
+mtSend_InvalidModifyMsg0="Invalid modify request."
+Count mtFileCrackedMsg=2
+mtFileCrackedMsg0="This file is cracked."
+mtFileCrackedMsg1="The application will be closed."
+Count mtException_LeakMultiFree=1
+mtException_LeakMultiFree0="Multi Free memory leak."
+Count mtException_LeakMemoryOverrun=1
+mtException_LeakMemoryOverrun0="Memory Overrun leak."
+Count mtException_AntiFreeze=1
+mtException_AntiFreeze0="The application seems to be frozen."
+Count mtInvalidEmailMsg=1
+mtInvalidEmailMsg0="Invalid email."
+TextsCollection=English
+EurekaLog Last Line -->
+</IDEOPTIONS>
+</PROJECT>

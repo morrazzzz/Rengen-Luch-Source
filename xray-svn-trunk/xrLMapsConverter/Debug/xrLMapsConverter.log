@@ -1,0 +1,8 @@
+﻿cl : командная строка warning D9035: использование параметра "Gm" нежелательно, он будет удален в следующих выпусках
+  BC.cpp
+  xrLMapsConverter.cpp
+d:\gamedev\s.t.a.l.k.e.r. - new project\la-engine\xray-svn-trunk\xrlmapsconverter\xrlmapsconverter.cpp(197): error C2664: "HRESULT D3DX10SaveTextureToFileW(ID3D10Resource *,D3DX10_IMAGE_FILE_FORMAT,LPCWSTR)": невозможно преобразовать аргумент 3 из "LPCSTR" в "LPCWSTR"
+  d:\gamedev\s.t.a.l.k.e.r. - new project\la-engine\xray-svn-trunk\xrlmapsconverter\xrlmapsconverter.cpp(197): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+d:\gamedev\s.t.a.l.k.e.r. - new project\la-engine\xray-svn-trunk\xrlmapsconverter\xrlmapsconverter.cpp(440): error C2664: "void parse_params(LPCSTR)": невозможно преобразовать аргумент 1 из "LPWSTR" в "LPCSTR"
+  d:\gamedev\s.t.a.l.k.e.r. - new project\la-engine\xray-svn-trunk\xrlmapsconverter\xrlmapsconverter.cpp(440): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+  stdafx.cpp

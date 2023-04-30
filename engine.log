@@ -1,0 +1,13 @@
+* Log is initialized
+ 
+* CPU count: 1
+* AMD Ryzen Threadripper 1950X 16-Core Processor  Cores/Threads 16/32
+* RAM: 16281 MB
+
+* Core Params: "d:\gamedev\s.t.a.l.k.e.r. - new project\la-engine\xray-svn-trunk\xr_3da\..\..\..\bin\x64\mixed\xr_3da.exe" 
+* Core preinitialization completed: 3.560000 ms 
+
+* Core location: D:\GameDev\S.T.A.L.K.E.R. - New Project\bin\x64\Mixed\
+# Initializing File System...
+using fs-ltx fsgame.ltx
+* Saving log
